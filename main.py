@@ -35,6 +35,7 @@ expression = st.text_input(
     "Enter Expression",
     placeholder="e.g., sin(30) + log(10) * sqrt(16)",
     key="expression",
+    on_change=calculate_expression,
 )
 
 # Define allowed functions and constants
