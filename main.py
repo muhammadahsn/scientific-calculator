@@ -3,6 +3,7 @@ import math
 
 st.set_page_config(page_title="Scientific Calculator", page_icon="🧮", layout="centered")
 
+st.title("Muhammad Ahsan")
 st.title("🧮 Scientific Calculator")
 
 def append_to_expression(value):
